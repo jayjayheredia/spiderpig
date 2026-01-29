@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.imagen{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 60%;
+    height: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/imagen.jpg);
+}
+
+.gif{
+    background-image: url(../img/gif.gif);
+}
+
+.boton{
+    margin: 291px auto 0;
+    width: 30px;
+    height: 50px;
+    background-image: url(..//img/play.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.boton_activo{
+    margin: 291px auto 0;
+    width: 30px;
+    height: 50px;
+    background-image: url(..//img/pausa.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
